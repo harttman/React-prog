@@ -1,9 +1,9 @@
-import React from "react";
 import logos from "../assets/logos.jpg";
+import styles from "../styles/header.module.css";
 
 function Header() {
   return (
-    <header className="app-header">
+    <header className={styles.app_header}>
       <img src={logos}/>
     </header>
   )

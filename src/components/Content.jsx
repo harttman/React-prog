@@ -1,9 +1,9 @@
-import React from "react";
 import logo from "../assets/logo.jpeg";
+import styles from "../styles/content.module.css";
 
 function Content() {
   return (
-    <div className="app-main-content">
+    <div className={styles.app_content}>
       <img src={logo} />
     </div>
   )

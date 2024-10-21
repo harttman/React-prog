@@ -1,0 +1,8 @@
+.app_content {
+  grid-area: c;
+  background: #00ffb3;
+}
+
+.app_content img {
+  width: 120px;
+}

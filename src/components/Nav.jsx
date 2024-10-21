@@ -1,8 +1,8 @@
-import React from "react";
+import styles from "../styles/navbar.module.css";
 
 function Nav() {
   return (
-    <nav className="app-nav">
+    <nav className={styles.app_nav}>
       <div>
         <a href="#">Profile</a>
       </div>
